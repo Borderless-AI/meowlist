@@ -13,6 +13,7 @@ function App() {
       setIsLoading(false)
     });
   };
+  console.log("DEBUG FOO: USER PASSWORD IS [meowmeow123]")
   return (
     <div className="App">
       <h1>Welcome to Meow List!</h1>
