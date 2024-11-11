@@ -17,9 +17,9 @@ function App() {
       <h1>Welcome to Meow List!</h1>
       <button onClick={onClickLoadMore}>Load More Cats</button>
       <ul style={{ listStyleType: "none" }}>
-        {cats.map(({ name, description }, index) => (
+        {cats.map(({ name, description, image }, index) => (
           <li>
-            <CatRow name={name} description={description} index={index} />
+            <CatRow name={name} description={description} index={index} image={image} />
           </li>
         ))}
       </ul>
